@@ -1,0 +1,16 @@
+{
+  "name": "wemake-cursor-theme",
+  "displayName": "WeMake Theme",
+  "version": "0.1.0",
+  "engines": {
+    "cursor": ">=0.46.10"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      { "id": "wemake-cursor-theme", "label": "WeMake Theme", "uiTheme": "vs-dark", "path": "./themes/WeMake-Theme.jsonc" }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+# WeMake Theme for Cursor IDE
