@@ -1,7 +1,12 @@
 {
   "name": "wemake-cursor-theme",
   "displayName": "WeMake Theme",
-  "version": "0.1.0",
+  "author": {
+    "name": "WeMake AI",
+    "email": "hey@wemake.cx",
+    "url": "https://github.com/WeMake-AI"
+  },
+  "version": "0.1.1",
   "engines": {
     "cursor": ">=0.46.10"
   },
@@ -10,7 +15,12 @@
   ],
   "contributes": {
     "themes": [
-      { "id": "wemake-cursor-theme", "label": "WeMake Theme", "uiTheme": "vs-dark", "path": "./themes/WeMake-Theme.jsonc" }
+      {
+        "id": "wemake-cursor-theme",
+        "label": "WeMake Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/wemake-theme.jsonc"
+      }
     ]
   }
 }
